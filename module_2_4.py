@@ -5,7 +5,7 @@ for i in range(len(numbers)):
     if numbers[i] >= 2:
         is_prime = True
 
-        for j in range(2, i):
+        for j in range(2, numbers[i]):
             if numbers[i] % j == 0:
                 is_prime = False
                 break
