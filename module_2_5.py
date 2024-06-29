@@ -1,12 +1,12 @@
-def get_matrix(rows, m, value):
-    if rows <= 0 or m <= 0:
+def get_matrix(rows, columns, value):
+    if rows <= 0 or columns <= 0:
         return []
 
     matrix = []
 
     for i in range(rows):
         temp = []
-        for j in range(m):
+        for j in range(columns):
             temp.append(value)
 
         matrix.append(temp)
