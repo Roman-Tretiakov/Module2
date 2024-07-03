@@ -10,8 +10,8 @@ def get_result(number_):
     for i in range(1, number_ + 1):
         for j in range(i + 1, number_ + 1):
             if number_ % (i + j) == 0:
-                result += str(i) + str(j)
-
+                result.append(str(i))
+                result.append(str(j))
     return result
 
 
