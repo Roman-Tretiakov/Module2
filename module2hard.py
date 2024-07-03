@@ -7,8 +7,8 @@ while 3 > number or number > 20:
 def get_result(number_):
     result = []
 
-    for i in range(1, number_):
-        for j in range(i + 1, number_):
+    for i in range(1, number_ + 1):
+        for j in range(i + 1, number_ + 1):
             if number_ % (i + j) == 0:
                 result.append(str(i))
                 result.append(str(j))
